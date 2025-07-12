@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>PixxelPro Digital</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceRestaurant
+  * Template URL: https://bootstrapmade.com/nice-restaurant-bootstrap-template/
+  * Updated: Jun 06 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <i class="bi bi-fork-knife"></i>
+        <h1 class="sitename">Indonesian Food</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#chefs">Chef</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted d-none d-sm-block" href="https://wa.me/62895639068080" target="_blank">Reservasi</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">Reservations Open</div>
+              <h2>CJDW</h2>
+              <p>Tempatnya Lidah Indonesia Pulang Kampung</p>
+
+              <div class="opening-hours" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-clock"></i>
+                <span>Buka: 07.00 - 22.00</span>
+              </div>
+
+              <div class="btn-group">
+                <a href="https://wa.me/62895639068080" target="_blank" class="btn btn-book">Reservasi</a>
+                <a href="#menu" class="btn btn-menu">Menu Andalan Kami</a>
+              </div>
+
+              <div class="social-links">
+                <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 800,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/sate padang.jpg" alt="Restaurant Ambience">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/nasgor-jawa.jpg" alt="Signature Dish">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/soto ayam.webp" alt="Expert Chefs">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content">
+              <h3>Tentang Kami</h3>
+              <p>Selamat datang di Warung CJDW, tempat di mana cita rasa khas Indonesia diolah dengan penuh cinta dan resep warisan yang autentik.
+              Kami percaya bahwa makanan bukan sekadar pengisi perut, tapi juga pembawa cerita, kenangan, dan kehangatan. Di Warung CJDW, kami menyajikan menu favorit sepanjang masa seperti ayam goreng sambal, sayur lodeh, nasi liwet, hingga aneka lauk rumahan yang siap membuat kamu merasa pulang ke kampung halaman.
+              Dengan bahan-bahan segar, bumbu tradisional, dan pelayanan yang ramah, kami ingin setiap pelanggan merasa seperti makan di rumah sendiri.
+              Warung CJDW bukan hanya soal rasa, tapi juga soal pengalaman makan yang bikin kangen.
+              Datang lapar, pulang kenyang dan bahagia! </p>
+
+              <div class="chef-signature mt-4">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="stats-container">
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="0" class="purecounter">15</span>+</span>
+                <p class="stat-label">Years Experience</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="0" class="purecounter">5</span></span>
+                <p class="stat-label">Expert Chefs</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0" class="purecounter">3</span></span>
+                <p class="stat-label">Culinary Awards</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="15000" data-purecounter-duration="0" class="purecounter">15000</span>+</span>
+                <p class="stat-label">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Menu</h2>
+        <p>Masakan Yang Kami Buat Dengan Sepenuh Hati</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+         
+
+          <div class="menu-container isotope-container row gy-4">
+
+            <!-- Regular Menu Items -->
+            <div class="col-lg-6 isotope-item filter-starters">
+              <div class="menu-item d-flex align-items-center gap-4">
+                <img src="assets/img/nasgor-jawa.jpg" alt="Starter" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Nasi Goreng Jawa  <span class="menu-tag">Food</span></h5>
+                  <p>Nasi goreng khas Jawa dengan cita rasa manis gurih yang khas, dimasak dengan bumbu rempah tradisional, dilengkapi telur, ayam suwir, dan kerupuk renyah.</p>
+                  <div class="price">Rp 12.000</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-starters">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/sate padang.jpg" alt="Starter" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Sate Padang <span class="menu-tag">Food</span></h5>
+                  <p>Potongan daging sapi empuk disiram kuah kental pedas gurih khas Padang, disajikan dengan ketupat dan bawang goreng. Pedasnya mantap!</p>
+                  <div class="price">Rp 15.000</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/soto ayam.webp" alt="Main Course" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Soto Ayam Lamongan <span class="menu-tag">Food</span></h5>
+                  <p>Kuah kuning gurih dengan taburan koya yang khas, berisi suwiran ayam, telur rebus, dan soun—sajian hangat khas Lamongan yang bikin nagih!</p>
+                  <div class="price">Rp 13.000</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/bakso.jpeg" alt="Main Course" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Bakso <span class="menu-tag">Food</span></h5>
+                  <p>Bakso daging sapi kenyal dengan kuah kaldu gurih, dilengkapi mie, tahu, dan pangsit—pas banget dinikmati saat lapar atau dingin-dingin.</p>
+                  <div class="price">Rp 10.000</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-dessert">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/es campur.jpg" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Es Campur <span class="menu-tag">Drink</span></h5>
+                  <p>Aneka buah segar, agar-agar, kolang-kaling, dan sirup merah dalam balutan es serut. Segarnya pas banget buat pelepas dahaga.</p>
+                  <div class="price">Rp 11.000</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-dessert">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/es teler.jpg" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Es Teler <span class="menu-tag">Drink</span></h5>
+                  <p>Campuran alpukat, kelapa muda, nangka, dan cincau disiram susu kental manis dan es serut. Manis, segar, dan cocok dinikmati kapan saja.</p>
+                  <div class="price">Rp 11.000</div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+       
+
+    </section><!-- /Menu Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimoni</h2>
+        <p>Komentar Dari Pelanggan Kami</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “Soto Lamongannya bikin hangat badan dan hati.”
+                  Kuahnya gurih, koya-nya melimpah, dan ayamnya empuk. Tempatnya juga bersih dan nyaman. Cocok buat makan siang rame-rame.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="">
+                  <h3>Andi </h3>
+                  <h4>Mahasiswa</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “Rasanya kayak masakan ibu di rumah!”
+                  Pertama kali makan di Warung CJDW langsung jatuh cinta. Nasi goreng jawanya juara banget, porsinya pas, rasanya nendang. Pasti balik lagi!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
+                  <h3>Rina</h3>
+                  <h4>Karyawan Swasta</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “Tempat makan favorit keluarga kami.”
+                  Warung CJDW selalu jadi pilihan kalau mau makan enak dan nggak ribet. Variasi menunya banyak dan semuanya enak!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
+                  <h3>Dewi </h3>
+                  <h4>Wirausaha</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “Baksonya enak banget, anak saya doyan!”
+                  Kami sekeluarga langganan di sini. Baksonya daging asli, kuahnya gurih. Anak-anak juga suka es teler-nya. Pelayanan ramah banget!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/person/person-m-12.webp" class="testimonial-img" alt="">
+                  <h3>Marko</h3>
+                  <h4>Pebisnis</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “Sate Padangnya bener-bener otentik!”
+                  Jarang nemu sate Padang seenak ini. Kuahnya kental dan pedasnya pas. Kalau malam-malam lapar, pasti langsung ke sini.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/person/person-m-13.webp" class="testimonial-img" alt="">
+                  <h3>John</h3>
+                  <h4>Pegawai Kantor  </h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Chefs Section -->
+    <section id="chefs" class="chefs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Chef</h2>
+        <p>Chef Profesional Kami</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="chef-highlight" data-aos="fade-right" data-aos-delay="200">
+              <figure class="chef-image">
+                <img src="assets/img/restaurant/chef-1.webp" class="img-fluid" alt="Executive Chef">
+              </figure>
+              <div class="chef-details">
+                <h3>Executive Chef</h3>
+                <h2>Ardi Nugraha</h2>
+                <div class="chef-awards">
+                  <span><i class="bi bi-star-fill"></i> James Beard Award</span>
+                  <span><i class="bi bi-star-fill"></i> Two Michelin Stars</span>
+                </div>
+                <p>Ahli dalam masakan tradisional Jawa dan spesialis nasi goreng, Chef Ardi membawa rasa autentik dari dapur nenek ke meja pelanggan. Pengalaman 10 tahun di industri kuliner membuat setiap racikan bumbunya penuh karakter.</p>
+                <div class="chef-signature">
+                  <img src="assets/img/misc/signature-1.webp" alt="Chef Signature">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="team-container" data-aos="fade-left" data-aos-delay="300">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-2.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Lita Maharani</h4>
+                      <p class="role">Pastry Chef</p>
+                      <p class="details">Ahli dessert tradisional dan minuman segar seperti es campur dan es teler. Chef Lita selalu menghadirkan penutup yang manis dan menyegarkan, cocok untuk semua kalangan.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-3.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Dimas Ramadhan</h4>
+                      <p class="role">Sous Chef</p>
+                      <p class="details">Menguasai berbagai hidangan berkuah seperti soto dan bakso, Chef Dimas terkenal dengan kuah kaldunya yang gurih dan dalam. Selalu berinovasi tanpa meninggalkan rasa asli Indonesia.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-4.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Reza Alfian</h4>
+                      <p class="role">Head of Bar</p>
+                      <p class="details">Chef muda penuh semangat yang mahir mengolah sate dan makanan bakar. Kreatif dan teliti dalam penyajian, Chef Reza percaya bahwa tampilan makanan sama pentingnya dengan rasanya.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-5.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Maya Salsabila</h4>
+                      <p class="role">Grill Master</p>
+                      <p class="details">Punya sentuhan lembut dalam setiap masakannya, Chef Maya fokus pada makanan rumahan yang bikin nyaman. Masakannya selalu mengutamakan rasa, kebersihan, dan kehangatan khas masakan ibu.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Chefs Section -->
+
+    <!-- Book A Table Section -->
+  
+    </section><!-- /Book A Table Section -->
+
+    <!-- Location Section -->
+  
+    </section><!-- /Location Section -->
+
+    <!-- Events Section -->
+    
+    </section><!-- /Events Section -->
+
+    <!-- Contact Section -->
+ 
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">NiceRestaurant</span>
+          </a>
+          <p>Kepuasan Pelanggan Adalah Visi Misi Kami Dalam Membangun Sebuah Usaha Kuliner Indonesia</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/62895639068080" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#chefs">Chef</a></li>>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Malang</p>
+          <p>Jawa Timur</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>0895-6390-68080</span></p>
+          <p><strong>Email:</strong> <span>pixxelpro@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">NiceRestaurant</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
